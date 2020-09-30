@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>particles.js</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <script src="Carousel.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.container').carousel({
+            num: 5,
+            maxWidth: 450,
+            maxHeight: 300,
+            distance: 50,
+            scale: 0.6,
+            animationTime: 1000,
+            showTime: 4000
+        });
+        $('#container2').carousel({
+            num: 5,
+            maxWidth: 200,
+            maxHeight: 100,
+            showTime: 5000
+        });
+
+        $('#container3').carousel({
+            num: 5,
+            maxWidth: 300,
+            maxHeight: 250,
+            distance: 30,
+            autoPlay: false
+        });
+    });
+    </script>
+</head>
+<body style="background-color: black;">
+
+
+<div id="particles-js">
+    <div class="p" style="position: absolute;">
+          <nav class="navbar navbar-expand-sm navbar-dark" style="">
+   <h2 class="navbar-brand" style="padding-right: 360px;font-size: 40px;color: orange;font-family: serif;padding-left:90px;">Placement</h2>
+  <ul class="navbar-nav container ">
+    
+    <li class="nav-item" >
+      <a class="nav-link" href="#" style="color: white;font-size:22px;padding-left: 500px;font-family: serif">login</a>
+    </li>
+    <li class="nav-item" >
+      <a class="nav-link" href="#" style="color: white;font-size:22px;padding-left: 100px;font-family: serif">signup</a>
+    </li>
+    
+              </ul></nav>
+        <div class="container" id="container" style="padding-top: 90px;">
+        <ul>
+            <li>
+                <img src="o3.jpg" style="width:410px;height:300px;">
+            </li>
+            <li>
+                <img src="o4.jpg" style="width:410px;height:300px;">
+            </li>
+            <li>
+                <img src="o2.png" style="width:410px;height:300px;">
+            </li>
+            <li>
+                <img src="o3.jpg" style="width:410px;height:300px;">
+            </li>
+            <li>
+                <img src="o4.jpg" style="width:410px;height:300px;">
+            </li>
+            <li>
+                <img src="o1.png" style="width:410px;height:300px;">
+            </li>
+            <li>
+                <img src="o2.png" style="width:410px;height:300px;">
+            </li>
+            
+        </ul>
+    </div>
+
+    </div><!--<div class="o" style="width:80%;float: right">
+ 
+    </nav>
+ <div class="o1 container" style="padding-left: 90px;margin-top: 50px; width:600px;height: 400px;background-color: white;">
+        
+        
+        
+    </div>
+    
+    
+    
+    
+    
+    </div>-->
+
+<script src="../particles.js"></script>
+<script src="js/app.js"></script
+
+
+</body>
+</html>
